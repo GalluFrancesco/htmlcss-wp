@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: Montserrat;
 }
 
 .raw::after {
@@ -19,9 +19,12 @@
     width: 1000px;
     margin: 0 auto;
     padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: Montserrat;
-    
+    padding-bottom: 10px;    
+}
+
+span{
+    font-size: 80%;
+    font-weight: 300;
 }
 
 
@@ -76,6 +79,8 @@ nav ul li a {
     color: white;
     width: 400px;
     position: absolute;
+    left: 40px;
+    bottom: 40px;
 }
 
 .box2{
@@ -88,10 +93,6 @@ h2{
     line-height: 25px;
 }
 
-.box2 span{
-    font-size: 80%;
-    font-weight: 300;
-}
 
 /* ----main---- */
 
@@ -114,8 +115,10 @@ h2{
     width: 100%;
     height: 200px;
     border-radius: 6px;
-    filter: brightness(0.8)
+    filter: brightness(0.8);
+    margin-left: 5px;
 }
+
 
 .img1{
     background: url(../img/img-1.jpg) no-repeat 50% 50%;
@@ -131,10 +134,13 @@ h2{
     background-size: cover;
 }
 
-
-    
+h5{
+    font-weight: 600;
+    line-height: 35px;
+}
 
 footer{
+    text-align: center;
     width: 100%;
     height: 100px;
 }
